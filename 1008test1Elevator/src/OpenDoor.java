@@ -1,10 +1,12 @@
 
 public class OpenDoor extends Door{
 
-	private static final String String = null;
 	
-	ElevatorPanel elv;
+	
+	ElevatorPanel elvP;
+	Elevator elevate;
 	CloseDoor close;
+	UpButton upbutton;
 	
 	public String doorstatus(String input)  {
 		
@@ -19,15 +21,19 @@ public class OpenDoor extends Door{
 	public boolean checkopendoor()  {
 		//boolean status = true;
 		
-		if(elv.checkstatus()==true)  {
+		/*if(elvP.checkstatus()==true)  {
 			//opendoor();
 			return true;
 		}
 		else
 			//close.closedoor();
 			return false;
-	}
+	}*/
 	
+		if(upbutton.pressButton()==true)
+			elevate.callElevator();
+		return false;
 	
+}
 	
 }

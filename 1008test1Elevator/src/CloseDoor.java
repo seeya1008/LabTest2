@@ -15,4 +15,6 @@ public class CloseDoor extends Door{
 		
 		return status;
 	}
+	
+	
 }

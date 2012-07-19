@@ -10,8 +10,13 @@ public class OperatorLiftFacade {
 		elev.elevatormove();
 		
 		upbutton.pressButton();
-	//	opendoor.opendoor();
-	//	closedoor.closedoor();
+		opendoor.opendoor();
+		opendoor.checkopendoor();
+		closedoor.checkclosedoor();
+		closedoor.closedoor();
+		upbutton.pressButton();
+		elev.elevatormove();
+	
 		
 		
 

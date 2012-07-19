@@ -1,8 +1,17 @@
 
 public abstract class Button {
 	
+	String res;
 	
-	void pressButton()  {
-		System.out.println("I am an abstract button");
+	
+	Button(String res)  {
+		this.res = res;
+	}
+	
+	
+	boolean pushbutton()  {
+		boolean pushButton = true;
+	
+			return pushButton;
 	}
 }
