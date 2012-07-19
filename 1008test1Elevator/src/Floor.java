@@ -3,7 +3,7 @@ public class Floor {
 	Elevator elv;
 	FloorPanel fPanel;
 	Door doors;
-	boolean status;
+	//boolean status;
 	
-	status=elev.checkstatus();
+	//status=elev.checkstatus();
 }
