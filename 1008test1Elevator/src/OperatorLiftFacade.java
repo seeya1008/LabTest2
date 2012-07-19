@@ -7,9 +7,14 @@ public class OperatorLiftFacade {
 	Elevator elev;
 	
 	void checkbutton()  {
+		elev.elevatormove();
+		
 		upbutton.pressButton();
-		opendoor.opendoor();
-		closedoor.closedoor();
+	//	opendoor.opendoor();
+	//	closedoor.closedoor();
+		
+		
+
 		
 	}
 	

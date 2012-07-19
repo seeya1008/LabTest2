@@ -6,10 +6,12 @@ public class UpButton extends FloorButton{
 		}*/
 	ElevatorPanel elevator;
 	
-	public boolean pressButton()  {
+	 boolean pressButton()  {
 		//System.out.println("Button pressed!");
 		boolean stat;
-		return stat=buttonUpstatuscheck();
+		 stat=buttonUpstatuscheck();
+		 
+		 return stat;
 	}
 		
 		boolean buttonUpstatuscheck()  {
@@ -18,4 +20,6 @@ public class UpButton extends FloorButton{
 			
 			return status;
 		}
+		
+		
 }
