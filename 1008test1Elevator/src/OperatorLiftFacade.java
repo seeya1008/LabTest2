@@ -6,6 +6,10 @@ public class OperatorLiftFacade {
 	CloseDoor closedoor;
 	Elevator elev;
 	
+	//STATE PATTERN IMPLEMENTATION
+	Door doors;
+	
+	
 	void checkbutton()  {
 		elev.elevatormove();
 		

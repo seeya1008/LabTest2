@@ -9,5 +9,5 @@ public class Floor {
 		this.floorNo=floorNo;
 	}
 	
-	
+	void requestDoor
 }
